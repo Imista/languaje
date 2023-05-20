@@ -1,0 +1,30 @@
+int a = 7
+int b = input(int,"Write B value:")
+int p = 8
+string c = "7" + "7"
+int r = a + b
+int ex = a
+string x = "A"
+float some = 7.0
+
+int y = 2
+i ? (y, 1): {
+	y = 90 
+	a = 8
+	output(i)
+} for
+y = 20
+p = 40
+string message = "Some text"
+&&& (4.5 > some): {
+	&&& (a == b)?: {
+		int h = 2 
+		a = 16
+	} if
+	output(r)
+	r = 4
+	a = 7
+} if
+
+int final = b
+int ope = a + b

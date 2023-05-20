@@ -1,0 +1,52 @@
+int a = 1
+int b = 0
+int c = 0
+int x = 0
+int y = 0
+int z = 0
+&&& (a != 0)?:{
+    a = input(int, "a: ")
+    b = input(int, "b: ")
+    c = input(int, "c: ")
+
+
+    &&& (b > c): {
+        output("Caso 1")
+         x = c + 0
+        &&& (x <= b)?:{
+            y = x % 2
+            &&& (y == 0):{
+                output("Par")
+                output(x)
+            } if
+            x = x + 1
+        } while
+    } if
+
+    &&& (c >= b): {
+        &&& (c < a): {
+            output("Caso 2")
+            x = c + 0
+            &&& (x <= a)?:{
+                y = x % 2
+                &&& (y != 0):{
+                    output("Impar")
+                    output(x)
+                } if
+                x = x + 1
+            } while
+        } if
+    } if
+
+    output("Potencia")
+    z = 0
+    c = 1
+    &&& (z < b)?:{
+        c = c * a
+        z = z + 1
+    }while
+    output(c)
+    output("Fin vuelta")
+
+}while
+output("gg lenguajes y automatas 2. Easy.")
